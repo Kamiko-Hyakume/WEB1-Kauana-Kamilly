@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Estilização</title>
+</head>
+<body>
+      <header>
+            <h2>Exercício com Estilização</h2>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Contato</a>
+        </nav>
+    <main>
+        
+        <section class="borda">
+            <div>
+                <h1>Login</h1>
+                <p>Faça login</p>
+            </div>
+            <form action="login.php" method="post" autocomplete="on">
+                <input type="email" name="login" placeholder="Seu email" autocomplete="email">
+                <input type="password" name="senha" placeholder="Sua senha" required minlength="8" maxlength="20">
+                <input type="submit" value="entrar">
+            </form>
+        </section>
+
+        <section>
+            <ul>
+                <li>Café</li>
+                <li>Chá</li>
+                <li>Leite</li>
+            </ul>
+        </section>
+
+        <section>
+            <table>
+                <tr>
+                    <th>Compania</th>
+                    <th>Contato</th>
+                    <th>País</th>
+                </tr>
+                <tr>
+                    <td>Senior</td>
+                    <td>Kamilly</td>
+                    <td>Brasil</td>
+                </tr>
+                <tr>
+                    <td>Hering</td>
+                    <td>Kauana</td>
+                    <td>Japão</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://github.com/Kamiko-Hyakume" target="_blank">Kauana</a>.</p>
+    </footer>
+</body>
+
+</html>
