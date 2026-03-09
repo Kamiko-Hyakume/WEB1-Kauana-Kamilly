@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="topo">
+            <div class="usuario">
+                <img src="imgs/image.png" class="carrinho">
+            </div>
+            <h1>Comercio.com</h1>
+            <span>Kamilly</span>
+        </div>
+        </header>
+
+        <section>
+            <div>
+                <h1>Login</h1>
+                <p>
+                    Esta aplicação web permite que os usuários acessem o sistema para gerenciar
+                    informações e utilizar os recursos disponíveis. Faça login para continuar.
+                </p>
+            </div>
+
+            <form action="login.php" method="post" autocomplete="on">
+
+                <!-- Login -->
+                <input type="email" name="login" placeholder="Seu email" required autocomplete="email">
+
+                <!-- Senha -->
+                <input type="password" name="senha" placeholder="Sua senha" required minlength="8" maxlength="20">
+
+                <br><br>
+
+                <!-- Lembre-me -->
+                <label>
+                    <input type="checkbox" name="lembrar">
+                    Lembre-me
+                </label>
+
+                <br><br>
+
+                <!-- Botão entrar -->
+                <input type="submit" value="Entrar">
+
+                <br><br>
+
+                <!-- Recuperar senha -->
+                <p>
+                    <a href="#">Esqueceu sua senha?</a>
+                </p>
+
+                <!-- Cadastro -->
+                <p>
+                    Ainda não possui conta?
+                    <a href="#">Cadastre-se</a>
+                </p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Site criado por 
+            <a href="https://github.com/Kamiko-Hyakume" target="_blank">Kauana</a>,
+            <a href="https://github.com/kamillybirkner" target="_blank">Kamilly</a>
+            e <a href="https://github.com/marco-wolff" target="_blank">Marco</a>
+        </p>
+    </footer>
+</body>
+
+</html>
